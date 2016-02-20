@@ -1,0 +1,47 @@
+/* 
+    Document   : oneColumnPage
+    Created on : Jan 6, 2013, 5:17:16 PM
+    Author     : woodstock
+    Description:
+        Purpose of the stylesheet follows.
+     p em li - display:none
+*/
+/* handheld */
+
+ body {
+ margin:0px;
+ }
+ #main {
+ position:relative;
+ top:115px;
+ padding-bottom:110px;
+ }
+ #top {
+ 
+ position:absolute;
+ top: 0px;
+ height:100px;
+ width:100%;
+ background-color: #ccc;
+ }
+ #bottom {
+ position:relative;
+ height:80px;
+ width:100%;
+ padding-top:5px;
+ background-color: #ccc;
+ } 
+ 
+ /* tablets */
+ @media only screen and (min-width: 481px) {
+     .fourhundredminwidthclass{
+         
+     }
+}
+
+/* desktop */
+@media only screen and (min-width: 769px) {
+    .sevenhundrendminwidthclass {
+        
+    }
+} 

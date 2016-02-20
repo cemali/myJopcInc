@@ -1,0 +1,403 @@
+/* id=#; class=. */
+/* Created for opacity for certain pages */
+
+body {
+	color: #000;
+	font-size: medium;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+        /* margin: 100px 40px 10px 70px; */  /* added 070911 */
+
+	/* background-color: #c7c7c7; */ /* bluish grey */
+         
+    /*  background-image: url(flowerBackgd2.GIF); top;*/ /* default    */
+    
+    
+        background-image: url("../images/oliveSkyleaf4.gif"); 
+        background-repeat: repeat; 
+}
+.container {
+	width: 1000px; /* 800px; */ /* 670 */ /* wider photos */
+	margin: 0 auto; 
+       /*  margin: 100px 40px 10px 70px; */
+       /* changing the background image on website 072011 */
+       background: #c7c7c7; /* greyish blue */
+
+	background-repeat: repeat-y;
+        /* CSS3 standard */
+   /*     opacity:0.9; */
+       /* IE option *//* made it solid grey for pics */
+    /*    filter: alpha(opacity = 80); */
+}
+
+/* hack for IE5 IE6 Box CONTAINER */
+/* div class="container" {
+  width: 1000px;
+  padding: 10px;
+  margin: 0px auto;
+}
+* html div class="container" {
+  \width: 1040px;
+  w\idth: 1000px;
+} 03/09/2013 using boilerplate now */
+.access {
+  float: right;
+
+}
+ .loginPrompt {
+  text-align: left;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.master {
+	text-align: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 800px; /* 650px;*/
+	padding: 0;
+	/*background-color: #e7b15a;*/ /* changing background */
+        /* background-color: #00008B; */ /* greyish */
+        
+}
+
+.google {
+	text-align: right;
+}
+.googleImage {
+       text-align: right;
+       height: 90px;
+       float: right;
+}
+.video1 {
+       text-align: center;
+}
+
+.video-flash {
+       text-align: center;
+}
+
+.Flash {
+       padding: 10px;
+       margin:  10px;
+       margin-top: 30px;
+       text-align: center;
+}
+
+.Hymn {
+      text-align: center;
+}
+
+.Bulletin {
+      text-align: center;
+}
+
+.Pray {
+      text-align: center;
+}
+
+.Pastor {
+        text-align: center;
+}
+
+.Elders {
+      text-align: center;
+}
+.Ministries {
+      text-align: center;
+}
+.Missions {
+      text-align: center;
+}
+.BookStore {
+      text-align: center;
+}
+.OurEvents {
+      text-align: center;
+      color: #e7b15a;
+}
+.Iframe {
+      text-align: center;
+}
+
+.OurClubs {
+      text-align: center;
+       color: #e7b15a;
+}
+
+.OurMembers {
+      text-align: center;
+}
+
+/*#calender {
+      margin-right: 30px;
+      float: right;
+} */
+
+.mealCalender {
+      margin: 25px 25px 25px 25px;
+      padding: 25px 25px 25px 25px;
+      /* float: center; 03/09/2013 */ 
+}  
+
+
+/* .navigation {
+	 margin-right: 10px;
+	margin-left: 10px;
+	background-color: #0000FF;  /* #e7b15a; orangish */
+	/* overflow: hidden; 
+} */
+
+.columnl {
+	width: 100px; /* 420px; */
+	padding: 0 10px 10px 10px;  /* added 070911 */ 
+       /* padding: 10px; */
+        margin: 10px 10px 10px 10px;
+
+/*        margin: 25px; 25px; 100px; 200px;
+        padding: 25px 25px 100px 200px;
+        float: center; */
+}
+.column2 {
+        width: 100px;
+        margin: 50px 50px 50px 50px;
+        padding: 20px 20px 20px 20px;
+        float: right;
+
+}
+.column_r {
+	width: 193px;
+	margin: 0;
+	float: right;
+	background-color: #eef;
+	position: relative;
+	right: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+article {
+    /* width:600px;
+    margin: auto; did not like the display with this - box image like */
+}
+
+blockquote.auntJ {
+ float: right;
+ background-color: aquamarine;
+ font-size: large;
+}
+
+
+.footer a:hover {
+    color: #3300ff;
+    background-color: #dfa025;
+   border: 1px solid #d9ae0f;
+}
+
+.footer {
+     text-align: center;
+}
+
+.master img {
+	float: left;
+}
+.master p {
+    color: #e7b15a;
+    font-size: x-small; 
+    text-align:right;
+   /*  margin: 10px 10px 0 10px;*/ 	
+}
+
+a {
+	color: #606C60;
+	text-decoration: underline;
+}
+
+/* Style for Naviation - removing the bullets */
+.navigation ul { /*good */
+/*	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0; */
+
+
+       list-style:none;
+        padding:0px;
+        margin:0px 
+
+}
+
+.navigation ul li {
+  /* Places them from the top of each other. align them across the board */
+
+        display:inline;
+        float:left; 
+}
+
+/* Style for Naviation - place space/borders around - old display */
+/* Makes the tabs wider. Don't need right now */
+/*.navigation a {
+	color: #000;
+	text-decoration: none;
+	margin: 0 1px;
+	padding: 5px;
+	display: block;
+	border: 1px solid #d3d3d3;
+} */ 
+
+.navigation ul li a /* Gives you the round display. colorful. */
+   {
+   color: #c98300; /*  */
+   background: #697271; /*  */
+   margin-right: 5px;
+   font-weight: bold;
+   font-size: 12px;
+   font-family: verdana;
+   text-decoration:none;
+   display:block;
+   width: 100px;
+   height: 25px;
+   line-height: 25px;
+   text-align:center;
+   -webkit-border-radius: 5px;
+   -moz-border-radius:5px;
+   border-radius: 5px;
+   border: 1px solid #560E00; 
+   }
+
+
+ .navigation a:hover { /* old style do not need */
+/*	background-color: #dfa025;
+	border: 1px solid #d9ae0f; */
+} 
+
+.navigation ul li a:hover /* display color (redish) and hover affects */
+   {
+   color: #3399FF; /* lightBlue */ /* #cccccc; */ /* greyish color */
+   background:#560E00;
+   font-weight:bold;
+   text-decoration:none;
+   display:block;
+   width:100px;
+   text-align:center;
+   -webkit-border-radius:5px;
+   -moz-border-radius:5px;
+   border-radius: 5px;
+   border: 1px solid #000000;
+   }
+
+   .navigation ul li.sublinks a
+   {
+   color:#3333cc; /*bluePurple */ /*#000000;*/ /*  */
+   background:#f6f6f6; /* */
+   border-bottom:1px solid #cccccc;
+   font-weight:normal;
+   text-decoration:none;
+   display:block;
+   width:100px;
+   text-align:center; 
+   }
+
+   .navigation ul li.sublinks a:hover
+   {
+   color:#000000;
+   background: #e7b15a; /* brownish */
+   font-weight:normal;
+   text-decoration:none;
+   display:block;
+   width:100px;
+   text-align:center; 
+   }
+   
+  .navigation ul li.sublinks
+   {
+  display:none; /* hides the dropdowns when display is using it */
+   }
+
+/* Styles for Content */
+h1 {
+	color:#00008B;/*Dark Blue*/ /*#e7b15a; brownish */
+	/* font-size: 2.0em;*/ /* added 07/09/11 */
+        font-size: medium;
+        margin: 10px; 
+        text-align: center;
+}
+p  {
+        /* margin: 70px; */
+         margin: 20px;
+         color: #000000; /*black */ /* #3399ff;  light blue */  
+}
+
+h2 {
+       color: #00008B; /*darkblue *//*#e7b15a; brownish */
+       text-align: center;
+       margin: 10px;
+       font-size: medium;
+}
+
+h3 {
+       margin: 10px;
+       text-align: center;
+       color: #e7b15a;
+}
+
+h4 {
+       margin: 10px;
+       text-align: center;
+       color: #e7b15a;
+}
+.row {
+ /*      text-align: center; */
+       color: #e7b15a;
+}
+
+
+/* slideshow properties */
+.slideshow {
+	width: 100px; /*600px; */
+/*	border: thin solid #99A09F; */
+	margin-top: 20px;
+       margin-left: 200px;
+       text-align: center; /* display text under slide (centered) */
+}
+.slideshow_text {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #418B83;
+	margin-left: 15px;
+} 
+.slideshow_image {
+	margin-left: 15px;
+}
+
+.slideshow2 {
+	width: 100px; /*600px; */
+	border: thin solid #99A09F;
+	margin-top: 20px;
+       margin-left: 100px; /*200px */
+       text-align: center; /* display text under slide (centered) */
+}
+.slideshow_text2 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #418B83;
+	margin-left: 15px;
+}
+.slideshow_image2 {
+	margin-left: 15px;
+}
+#slider {
+      width: 300px;
+      margin-left: 125px; /* place slider in center */
+/*      border: thin solid #99A09F; */
+}
+/* adding photo cube to css */
+#linksCube imag {
+    width: 100%; height: 100%;
+}
+
+.clear_float {
+	clear: both;
+}
+

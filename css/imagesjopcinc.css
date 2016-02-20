@@ -1,0 +1,73 @@
+body {
+  background: #fff;
+  font-family: Georgia;
+  font-size: 12px;
+  margin-top: 50px;
+  background-image: url("../images/oliveSkyleaf4.gif");
+  background-repeat: repeat;
+}
+
+a {
+  color: #000;
+}
+
+#container {
+  width: 1000px; /*800px; */
+  min-height: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #c7c7c7; /*#fdfdfd; */
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+#menu {
+  width: 800px;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+
+.access {
+  float: right;
+}
+
+.loginPrompt {
+  text-align: left;
+  margin: 10px; 10px; 10px; 10px;
+  padding: 10px; 10px; 10px; 10px;
+}
+
+.google {
+  text-align: right;
+}
+
+
+
+#footer {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  color: #777;
+}
+
+#header {
+  width: 100%;
+}
+
+#main {
+  margin-top: 10px;
+  width: 100%;
+}
+
+input {
+  font-family: Georgia;
+  font-size: 12px;
+}
+
+.right {
+  display: inline;
+  float: right;
+}

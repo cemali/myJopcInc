@@ -1,0 +1,24 @@
+<?php
+
+/*
+ * drive2Us - JOPCINC dirve2Us program
+ * Matt Lee 09152012
+ */
+?>
+
+
+<?php
+include ('../includes/header.html');
+?>
+
+   <div class="page content">
+        <div id="columnl">
+              <h1>Our Driving Directions to Joint Olive Prayer Connections(JOPC)</h1>
+               <script src="http://www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/114281111391296844949/driving-directions.xml&amp;up_fromLocation=&amp;up_myLocations=500%20East%20Streamwood%20Blvd%2C%20Streamwood%2C%20IL%20(GraceBible%20Church)&amp;up_defaultDirectionsType=&amp;up_autoExpand=&amp;synd=open&amp;w=780&amp;h=300&amp;title=Directions+by+Google+Maps&amp;brand=light&amp;lang=en&amp;country=US&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+
+
+          
+
+<?php
+include ('../includes/footer.html');
+?>

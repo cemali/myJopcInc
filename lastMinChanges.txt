@@ -1,0 +1,27 @@
+*
+ * prayerLine.php - JOPCINC prayerLine program
+ * Matt Lee 09152012
+ */
+?>
+
+<!-- <?php -->
+/*    session_start(); */
+<!-- ?> -->
+
+<!-- <?php -->
+/* if (!$_SESSION['username'])
+    die("You must be logged in to view this page !<a href='home.php'>Go to Home Page to login</a>"); */
+
+<!-- ?> -->
+
+
+ <div id="socialMed">
+          <a href="home.php" target="_blank" align="left"><img src="../images/facebook.png" border="0"></a><a href="home.php" target="_blank" align="left"><img src="../images/twitter2b.png" border="0"></a><a href="home.php" target="_blank" align="left"><img src="../images/youtubeb.png" border="0"></a><a href="home.php" target="_blank" align="left"><img src="../images/linkedin.png" border="0"></a><a href="home.php" target="_blank" align="left" ><img src="../images/feed.png" border="0"></a>
+
+</div>
+
+
+add-on as of 11-10-2014
+
+In Home Care - 
+Non-medical care services include personal care, companionship and supervision, as well as help in the home with the tasks of daily living such as meal preparation, medication reminders, laundry, light housekeeping, errands, shopping, transportation, and companionship.

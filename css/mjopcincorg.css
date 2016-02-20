@@ -1,0 +1,54 @@
+/* 
+    Document   : mjopcincorg
+    Created on : Sep 9, 2012, 6:32:51 PM
+    Author     : Matt Lee
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@media screen and (min-width: 600px) {
+     .sixhundredminwidthclass {
+          width: 30%;
+          float: right;
+          background-color: #c7c7c7;
+     }
+}
+
+@media screen and (max-width: 600px) {
+     .sixhundredmaxwidth {
+          clear: both;
+          font-size: 1.3em;
+          background-color: #c7c7c7;
+     }
+}
+
+@font-face {
+    font-family: 'Comfortaa Regular';
+    src: url('Comfortaa.eot');
+    src: local('Comfortaa Regual'),
+         local('Confortaa'),
+         url('Comfortaa.ttf') format('truetype'),
+         url('Comfortaa.svg#font') format('svg');
+}
+/* android */
+#androidorientation {
+    display: -webkit-box;
+-webkit-box-orient: horizontal;
+    display: -moz-box;
+    -moz-box-orient: horizontal;
+}
+
+/* iPad */
+@media screen and (orientation: landscape) {
+     .applelandscape {
+          width: 30%;
+          float: right;
+     }
+}
+
+@media screen and (orientation: portrait) {
+     .appleportrait {
+          clear: both;
+     }
+
+}

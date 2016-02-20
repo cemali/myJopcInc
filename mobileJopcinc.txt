@@ -1,0 +1,57 @@
+<!--
+Matt Holden - mobileJopcinc.html
+for mobile devices 09/12/2012
+-->
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>JOPCINC</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+        <link href="css/mjopcincorg.css" media="handheld" rel="stylesheet" title="css" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+		<h1><b>JOPC Inc. Adult Day Care. <br></b>118 Village Parkway, Woodstock, Georgia 30188</h1>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		
+                
+<!--                <ul data-role="listview" data-inset="true" data-filter="true">
+	           <li><a href="#">Home</a></li>
+	           <li><a href="#">Our's Vision</a></li>
+	           <li><a href="#">Comments</a></li>
+	           <li><a href="#">Donations</a></li>
+	           <li><a href="#">Contact Us</a></li>
+                </ul> -->
+            
+            
+            <a href="mobileJopcinc.html" data-role="button" data-icon="home">Home button</a>
+            <a href="mobileVision.html" data-role="button" data-icon="info">Our Vision button</a>
+            <a href="#" data-role="button" data-icon="info">Comment button</a>
+            <a href="mobileDonate.html" data-role="button" data-icon="info">Donation button</a>
+            <a href="#" data-role="button" data-icon="info">Contact Us button</a>
+                
+            <p>Joint Olive Prayer Connection Inc</p>
+            <ARTICLE><P>JOPC Inc is a day care center, a non-profit organization designed for disabled and older adults who can no longer manage independently, or who are isolated and lonely. Our program enables the disabled and seniors to socialize with others while still receiving needed care services. At the same time, we offer caregivers a break from care-giving duties while knowing that their loved one is in good hands. The center boasts a planned program of activities designed to promote well-being through social and health-related services. JOPC Inc. operates during daytime hours, Monday through Friday, in a safe, supportive and cheerful environment. We also offer nutritious meals that accommodate special diets, along with an afternoon snack.</P></ARTICLE>
+<ARTICLE><P>JOPC, Inc. is an organization that provides disabled and adult day care services in a caring, safe and secure environment utilizing the skills of trained and experienced staff. Our philosophy and objectives are as follows: </P></ARTICLE>
+<UL><LI>  In the spirit and long standing tradition of JOPC Inc, to nurture the spiritual, cognitive, socio-emotional and physical well-being of those adult individuals whom we are able to accommodate in an Adult Day Care Program, in consonance with the State of Georgia’s Administrative Rules.</LI>
+    <LI>To provide relief from the demands of constant care-giving; to refresh and rejuvenate the caregiver enabling continuation of in-home care of a disabled and an adult person and to provide respite services.</LI>
+    <LI>To enable the clients to develop relationships outside the family in a socially stimulating setting; to reintroduce clients or allow them time to adjust to group interaction.</LI>
+    <LI> To maximize the client’s functioning and well-being; to lessen, delay or prevent functional regression.</LI>
+    <LI>To offer high quality, professional care services in a secure and comfortable environment to Day Care & Day Health clients.</LI></UL>
+
+                
+                
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
